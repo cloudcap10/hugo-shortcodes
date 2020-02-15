@@ -27,12 +27,3 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
     ```toml
     theme = ["hugo-shortcodes, "my-theme"]
 
-3. In your site, use the shortcode, this way: 
-
-
-
-{{< blockquote
-  cite="Mark Twain" text="The more things are forbidden, the more popular they become."
-/>}}
-
-{{%attachments title="Related files" pattern=".*(pdf|mp4)"/%}}
