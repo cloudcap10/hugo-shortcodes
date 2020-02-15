@@ -29,7 +29,7 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
 
 3. In your site, use the shortcode, this way: 
 
-**blockquote**
+
 
 ```html
 {{</* blockquote
@@ -38,3 +38,7 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
 /*/>}}
 ```
 
+```html
+{{</* external href="https://talz.net/portfolio/" text="Portfolio" /*/>}}
+{{</* external href="https://talz.net/" /*/>}}
+```
