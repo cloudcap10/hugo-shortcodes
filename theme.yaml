@@ -1,0 +1,13 @@
+# theme.yaml configuration file
+
+name: Display notice
+license: GPLv3
+licenselink: https://github.com/martignoni/hugo-notice/blob/master/LICENSE
+description: Hugo shortcodes collections
+homepage: https://github.com/talz26/hugo-shortcodes
+
+min_version: 0.40.0
+
+author:
+  name: Joven Talasan
+  homepage: https://talz.net/portfolio/
