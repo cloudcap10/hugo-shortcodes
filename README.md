@@ -1,4 +1,4 @@
-# hugo-notice
+# hugo-shortcodes
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/budparr/awesome-hugo)
 
@@ -27,9 +27,12 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
     ```toml
     theme = ["hugo-shortcodes, "my-theme"]
 
+<<<<<<< HEAD
 3. In your site, use the shortcode, this way: 
 
 
 {{< blockquote
   cite="Mark Twain" text="The more things are forbidden, the more popular they become."
 />}}
+=======
+>>>>>>> 664de4ac668067f5cff516f047e2e2726233da2d
