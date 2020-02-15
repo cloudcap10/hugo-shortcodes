@@ -29,6 +29,8 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
 
 3. In your site, use the shortcode, this way: 
 
+**blockquote**
+
 ```html
 {{</* blockquote
   cite="Mark Twain"
