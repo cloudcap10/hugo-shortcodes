@@ -33,7 +33,14 @@ Updating From the root of your site:
 
 3. In your site, use the shortcode, this way: 
 
+A button is a just a clickable button with optional icon.
 
-{{< blockquote
-  cite="Mark Twain" text="The more things are forbidden, the more popular they become."
-/>}}
+```
+{{%/* button href="https://getgrav.org/" */%}}Get Grav{{%/* /button */%}}
+{{%/* button href="https://getgrav.org/" icon="fas fa-download" */%}}Get Grav with icon{{%/* /button */%}}
+{{%/* button href="https://getgrav.org/" icon="fas fa-download" icon-position="right" */%}}Get Grav with icon right{{%/* /button */%}}
+```
+
+{{% button href="https://getgrav.org/" %}}Get Grav{{% /button %}}
+{{% button href="https://getgrav.org/" icon="fas fa-download" %}}Get Grav with icon{{% /button %}}
+{{% button href="https://getgrav.org/" icon="fas fa-download" icon-position="right" %}}Get Grav with icon right{{% /button %}}
