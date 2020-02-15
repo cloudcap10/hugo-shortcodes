@@ -17,6 +17,10 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
 
 `git submodule add https://github.com/talz26/hugo-shortcodes.git themes/hugo-shortcodes`
 
+Updating From the root of your site:
+
+`git submodule update --remote --merge`
+
 2. Add `hugo-shortcodes` as the left-most element of the `theme` list variable in your site's or theme's configuration file `config.yaml` or `config.toml`. Example, with `config.yaml`:
     ```yaml
 
@@ -27,12 +31,9 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
     ```toml
     theme = ["hugo-shortcodes, "my-theme"]
 
-<<<<<<< HEAD
 3. In your site, use the shortcode, this way: 
 
 
 {{< blockquote
   cite="Mark Twain" text="The more things are forbidden, the more popular they become."
 />}}
-=======
->>>>>>> 664de4ac668067f5cff516f047e2e2726233da2d
