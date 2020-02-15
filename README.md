@@ -30,15 +30,6 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
 3. In your site, use the shortcode, this way: 
 
 
-
-```html
-{{</* blockquote
-  cite="Mark Twain"
-  text="The more things are forbidden, the more popular they become."
-/*/>}}
-```
-
-```html
-{{</* external href="https://talz.net/portfolio/" text="Portfolio" /*/>}}
-{{</* external href="https://talz.net/" /*/>}}
-```
+{{< blockquote
+  cite="Mark Twain" text="The more things are forbidden, the more popular they become."
+/>}}
