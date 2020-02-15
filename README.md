@@ -35,3 +35,4 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
   cite="Mark Twain" text="The more things are forbidden, the more popular they become."
 />}}
 
+{{%attachments title="Related files" pattern=".*(pdf|mp4)"/%}}
