@@ -29,10 +29,3 @@ It is a [Hugo](https://gohugo.io) theme component providing a shortcodes
 
 3. In your site, use the shortcode, this way: 
 
-**Alert**
-{{< hackcss-alert type="success" text="Success Text" />}}
-{{< hackcss-alert type="info" >}}<s>Info</s> ~~Text~~{{< /hackcss-alert >}}
-{{% hackcss-alert type="warning" %}}~~Warning~~ Text{{% /hackcss-alert %}}
-{{< hackcss-alert type="error" >}}
-  <strong>Error</strong> Text
-{{< /hackcss-alert >}}
